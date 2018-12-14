@@ -3,7 +3,7 @@ package:
   authors: ["Fabian Schuiki <fschuiki@iis.ee.ethz.ch>"]
 
 dependencies:
-  common_cells: { git: "https://github.com/pulp-platform/common_cells.git", version: 1.10.0 }
+  common_cells: { git: "https://github.com/pulp-platform/common_cells.git", rev: fab1e1d98b05bf6da96ac53c81a6c86166e8fc03 }
 
 export_include_dirs:
   - include
