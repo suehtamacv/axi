@@ -18,6 +18,7 @@ sources:
       - test/tb_axi_lite_to_axi.sv
       - test/tb_axi_lite_xbar.sv
       - test/tb_axi_to_axi_lite.sv
+      - test/tb_axi_data_width_converter.sv
   - src/axi_intf.sv
 
   - src/axi_arbiter.sv
@@ -40,5 +41,5 @@ sources:
   - src/axi_id_remap.sv
 
   - src/axi_data_width_converter.sv
-  - src/axi_downscale.sv
-  - src/axi_upscale.sv
+  - src/axi_data_downsize.sv
+  - src/axi_data_upsize.sv
